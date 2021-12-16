@@ -9,11 +9,14 @@
 .body {
     font-family: 'Outfit', sans-serif;
     background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .c-card {
     width: 350px;
-    margin: 10% auto;
+    margin: 5em auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -22,16 +25,19 @@
     box-shadow: 0px 40px 40px 10px hsl(217, 54%, 11%), 0px 40px 0px 20px hsl(217, 54%, 10%);
 }
 
-.c-card:active .img__viewIcon{
+.c-card:active .img__viewIcon, .c-card:hover .img__viewIcon {
     opacity: 1;
 }
 
-.c-card:active .img--layer{
+.c-card:active .img--layer,
+.c-card:hover .img--layer {
     opacity: 0.5;
 }
 
 .c-card:active .c-card__title,
-.c-card:active .c-card__credit--author {
+.c-card:active .c-card__credit--author,
+.c-card:hover .c-card__title,
+.c-card:hover .c-card__credit--author {
     color: hsl(178, 100%, 50%);
 }
 
@@ -143,9 +149,15 @@
 }
 
 .attribution {
-    position: relative;
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding: 2em;
+
+    background-color: rgba(0,0,0,.5);
+    color: white;
     font-size: 11px;
     text-align: center;
 }
