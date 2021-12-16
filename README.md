@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [NFT- Previex-Card Component](https://khadimrenahymar.github.io/NFT-PreviewCard/)
+- Solution URL: [NFT- Preview-Card Component](https://khadimrenahymar.github.io/NFT-PreviewCard/)
 
 ## My process
 
