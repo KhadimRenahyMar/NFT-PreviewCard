@@ -2,6 +2,7 @@
     "url": "https://khadimrenahymar.github.io/NFT-PreviewCard/",
     "coverURL": "https://raw.githubusercontent.com/KhadimRenahyMar/NFT-PreviewCard/master/portfolio/screenshots/0cover.webp",
     "size": "XS",
+    "mainTechs": ["HTML", "CSS"],
     "techs": [
         {
             "name": "HTML",
